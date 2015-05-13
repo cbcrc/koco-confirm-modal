@@ -1,0 +1,29 @@
+{
+  "name": "koco-confirm-modal",
+  "version": "0.1.0",
+  "homepage": "https://github.com/cbcrc/koco-confirm-modal",
+  "authors": [
+    "Mark Moyes <mark.moyes@cbc.ca>"
+  ],
+  "description": "Confirm modal to be used with knockout components",
+  "main": "src/confirm-modal-ui.js",
+  "moduleType": [
+    "amd"
+  ],
+  "keywords": [
+    "knockout",
+    "koco",
+    "modaler"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "koco-modaler": "~0.2.5"
+  }
+}

@@ -7,7 +7,7 @@
         <p data-bind="html: message"></p>
     </div>
     <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Annuler</button>
+        <button type="button" class="btn btn-default" data-dismiss="modal" data-bind="html: cancelButtonHtml">Annuler</button>
         <button class="btn btn-success" type="button" data-bind="click: ok">
             <span class="hidden-xs" data-bind="html: okButtonHtml">Confirmer</span>
         </button>

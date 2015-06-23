@@ -1,0 +1,12 @@
+{
+	"en": {
+		"confirm-modal.please-confirm": "Please confirm",
+		"confirm-modal.ok": "Confirm",
+		"confirm-modal.cancel": "Cancel"
+	},
+	"fr": {
+		"confirm-modal.please-confirm": "Veuillez confirmer",
+		"confirm-modal.ok": "Confirmer",
+		"confirm-modal.cancel": "Annuler"
+	}
+}

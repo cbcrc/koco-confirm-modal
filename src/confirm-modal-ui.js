@@ -12,10 +12,10 @@ define([
             var self = this;
 
             self.settings = settings;
-            self.title = settings.params.title || settings.title || i18n.t('confirm-modal.please-confirm'); 
+            self.title = settings.params.title || settings.title || i18n.t('koco-confirm-modal.please-confirm'); 
             self.message = settings.params.message;
-            self.okButtonHtml = settings.params.okButtonHtml || i18n.t('confirm-modal.ok'); 
-            self.cancelButtonHtml = settings.params.cancelButtonHtml || i18n.t('confirm-modal.cancel');
+            self.okButtonHtml = settings.params.okButtonHtml || i18n.t('koco-confirm-modal.ok'); 
+            self.cancelButtonHtml = settings.params.cancelButtonHtml || i18n.t('koco-confirm-modal.cancel');
         };
 
         ConfirmDialog.prototype.ok = function() {

@@ -1,9 +1,10 @@
 {
   "name": "koco-confirm-modal",
-  "version": "0.2.2",
+  "version": "0.3.0",
   "homepage": "https://github.com/cbcrc/koco-confirm-modal",
   "authors": [
-    "Mark Moyes <mark.moyes@cbc.ca>"
+    "Mark Moyes <mark.moyes@cbc.ca>",
+    "Maxime Séguin <maxime.forget-seguin@radio-canada.ca>"
   ],
   "description": "Confirm modal to be used with knockout components",
   "main": "src/confirm-modal-ui.js",
@@ -24,7 +25,7 @@
     "tests"
   ],
   "dependencies": {
-    "koco-modaler": "~0.2.5",
+    "koco-modaler": "~0.3.0",
     "i18next": "~1.9.0"
   }
 }

@@ -2,11 +2,12 @@
 // Licensed under the MIT license. See LICENSE file in the project root for full license information.
 
 define([
-        'text!./confirm-modal.html',
         'i18next'
     ],
-    function(template, i18n) {
+    function(i18n) {
         'use strict';
+
+        //todo: i18n as optional dependency
 
         var ConfirmDialog = function(settings /*, componentInfo*/ ) {
             var self = this;
@@ -25,12 +26,5 @@ define([
 
         //ConfirmDialog.prototype.dispose = function() {};
 
-        return {
-            viewModel: {
-                createViewModel: function(settings, componentInfo) {
-                    return new ConfirmDialog(settings, componentInfo);
-                }
-            },
-            template: template
-        };
+        return ConfirmDialog;
     });

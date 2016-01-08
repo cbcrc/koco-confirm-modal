@@ -1,6 +1,6 @@
 <!--    Copyright (c) CBC/Radio-Canada. All rights reserved.
         Licensed under the MIT license. See LICENSE file in the project root for full license information. -->
-        
+
 <modal>
     <modal-header params="title: title"></modal-header>
     <div class="modal-body">
@@ -8,8 +8,6 @@
     </div>
     <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal" data-bind="html: cancelButtonHtml">Annuler</button>
-        <button class="btn btn-success" type="button" data-bind="click: ok">
-            <span class="hidden-xs" data-bind="html: okButtonHtml">Confirmer</span>
-        </button>
+        <button class="btn btn-success" type="button" data-bind="click: ok, html: okButtonHtml">Confirmer</button>
     </div>
 </modal>

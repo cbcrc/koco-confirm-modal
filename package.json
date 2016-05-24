@@ -1,24 +1,24 @@
 {
-    "name": "koco-confirm-modal",
-    "version": "0.3.2",
-    "homepage": "https://github.com/cbcrc/koco-confirm-modal",
-    "authors": [
-        "Mark Moyes <mark.moyes@cbc.ca>",
-        "Maxime Séguin <maxime.forget-seguin@radio-canada.ca>"
-    ],
-    "description": "Confirm modal to be used with knockout components",
-    "main": "src/confirm-modal-ui.js",
-    "keywords": [
-        "knockout",
-        "koco",
-        "modaler"
-    ],
-    "scripts": {
-        "build": "rm -rf dist && mkdir dist && cp -r src/* dist && rm -rf dist/*.js && babel src --out-dir dist --modules umd --presets es2015,stage-0"
-    },
-    "license": "MIT",
-    "dependencies": {
-        "koco-modaler": "~0.3.0",
-        "i18next": "~1.9.0"
-    }
+  "name": "koco-confirm-modal",
+  "version": "1.0.0",
+  "homepage": "https://github.com/cbcrc/koco-confirm-modal",
+  "authors": [
+    "Mark Moyes <mark.moyes@cbc.ca>",
+    "Maxime Séguin <maxime.forget-seguin@radio-canada.ca>"
+  ],
+  "description": "Confirm modal to be used with knockout components",
+  "main": "src/confirm-modal-ui.js",
+  "keywords": [
+    "knockout",
+    "koco",
+    "modaler"
+  ],
+  "scripts": {
+    "build": "rm -rf dist && mkdir dist && cp -r src/* dist && rm -rf dist/*.js && babel src --out-dir dist --modules umd --presets es2015,stage-0"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "koco-modaler": "~0.3.0",
+    "i18next": "~1.9.0"
+  }
 }

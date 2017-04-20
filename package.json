@@ -18,8 +18,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "bootstrap": "^3.3.6",
-    "i18next": "^3.1.0"
+    "bootstrap": "^3.3.6"
   },
   "peerDependencies": {
     "koco": "^2.0.0",
